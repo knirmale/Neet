@@ -589,3 +589,9 @@ class TestWTNetwork(unittest.TestCase):
             [0, 0, 0, 0, 0, 0, 1, 0, 1],
             s_pombe.update([0,0,0,0,0,0,0,0,1], pin=[1,2,3,-1])
         )
+class TestLogicNet(unittest.TestCase):
+	def test_canary(self):
+		self.assertEqual(3, 1+2)
+
+
+
